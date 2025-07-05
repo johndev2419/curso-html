@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-wifth,initial-scale=1.0">
+    <title>trabalhe conosco</title>
+</head>
+
+<body>
+    <h1>trabalha conosco</h1>
+    <h2> candidate-se</h2>
+
+    <form action="https://localhost:8081/vaga/cadastrar" method="get">
+
+
+        <label for="campo nome">Nome</label>
+        <input type="text" required minlength="3" maxlength="20" id="campo-nome" name="nome">
+        <br>
+
+        <label for="campo-idade">Idade</label>
+        <input type="number" required min="14" max="100" id="campo-idade" name="idade">
+        <br>
+
+        <label for="campo-cpf">CPF</label>
+        <input type="text" required minlength="14" maxlength="14" id="campo-cpf" name="cpf">
+        <br>
+
+        <label for="campo-data-preferida">data preferida</label>
+        <input type="date" required name="data-preferida" id="campo-data-preferida">
+        <br>
+
+        <label for="campo-experiencia">experiencia</label>
+        <input type="checkbox" id="campo-experoencia" name="experiencia" value="sim">
+        <br>
+
+        <input type="radio" id="campo-vaga-junior" name="vaga" value="junior">
+        <label for="campo-vaga-junior">junior</label>
+        <br>
+
+        <label for="campo-anexo">Anexo</label>
+        <input type="file" id="campo-anexo" required name="anexo">
+        <br>
+
+        <button type="submit">enviar</button>
+
+    </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+
+
+</html>

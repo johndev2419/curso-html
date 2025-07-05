@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html> 
+    
+    <meta charset="utf-8"
+    <meta name="viewport" content="width=device-wifth, initial-scale=1.0">
+    <title>document</title>
+    </html>
+    <body>
+        <h1>entre em contato conosco</h1>
+        <!--meu comentário-->
+        <!-- a tag <form> define um formulario html utilizado para enviar dados dos campos
+            ao back-ed. o atributo 'action' especifica a url (rota) para onde os dados do formularios serão enviados
+            -'get' : os dados são enviados como parâmentros na URL (QUERY STRING)-->
+        <form action="salvar-contatos.php" method="get">
+            <label>nome</label>
+            <input type="text" required minlength="3" maxlength="45" name="nome">
+            <button type="submit">eniviar</button>
+            <div></div>
+            <label>e-mail</label>
+            <input type="email"required name="email">
+            <button type="submit">enviar</button>
+            <br>
+            <label>contato</label>
+            <input type="tel" required name="celular">
+            <br>
+
+            <label>motivo</label>
+            <select name="motivo" required>
+                <option value="1">bug</option>
+                <option value="2">sugestão</option>
+                <option value="3">update</option>
+                <option value="4">reclamação</option>
+            </select>
+            <br>
+
+            <label>descrição</label>
+            <textarea name="descricao" rows="10" cols="50"></textarea>
+
+             <button type="submit">enviar</button>
+
+
+
+        </form>
+
+
+
+    </body>
+
+
+
+
+
+
+
+
+
+
+
+
+</html>
